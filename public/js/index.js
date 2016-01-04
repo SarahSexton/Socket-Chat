@@ -7,5 +7,3 @@
   socket.on('chat message', function(msg){
 	$('#messages').append($('<p>').text(msg));
   });
-
-
